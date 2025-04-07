@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     "http://localhost:5173",                    // for local dev
-    "https://nextskills.netlify.app",           // deployed frontend domain
+    "http://couserplatfrom.vercel.app/",           // deployed frontend domain
   ],
   credentials: true,
 }));
